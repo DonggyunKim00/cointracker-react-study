@@ -11,7 +11,8 @@ function CoinConverter({ coinInfo }) {
     setUsd(0);
     setDisabled((current) => !current);
   };
-  console.log(coinInfo.symbol);
+  console.log(coinInfo.symbol); // Why is undefined in the first coin.symbol?
+
 
   return (
     <div>
